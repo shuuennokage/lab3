@@ -1,1 +1,31 @@
+PART A
+g++ -o lab3 lab3.cpp
+./lab3
 
+PART B
+1000
+sort(): 0.001 seconds
+v1/v2 are different.
+insertion_sort(): 0.013 seconds
+v1/v2 are the same.
+
+10000
+sort(): 0.008 seconds
+v1/v2 are different.
+insertion_sort(): 0.709 seconds
+v1/v2 are the same.
+
+100000
+sort(): 0.077 seconds
+v1/v2 are different.
+insertion_sort(): 68.388 seconds
+v1/v2 are the same.
+
+1000000
+sort(): 0.708 seconds
+v1/v2 are different.
+insertion_sort(): 7981.6 seconds
+v1/v2 are the same.
+
+/****以函數角度來看，n^2的成長速度遠大於nlogn，在整理速度上會有很大的差距
+以數據分析，前者約以9倍速度增長，後者約以100倍速度增長****/
